@@ -72,9 +72,23 @@
               
 
 
-<p>la la la</p>
-<p><a href="../../../../../project/project1/">Link to project 1</a></p>
-<p><a href="https://www.google.com">Link to google</a></p>
+<p>This semester I learned how to use python! One important difference between R studio and python I learned is that indexing in python begins at 0 instead of 1, so it is important to adjust accordingly. For example, if we wanted to find the 4th object in the dataset, we would code like this:</p>
+<pre class="python"><code>list1=[1,2,3,4]
+list1[3]</code></pre>
+<pre><code>## 4</code></pre>
+<p>In addition to learning how python varies from R, I learned how R and Python talk to each other and share information. Check it out!</p>
+<pre class="r"><code>library(reticulate)
+mywords &lt;- &quot;I tell R something&quot;</code></pre>
+<pre class="python"><code>mywords = &quot;and python something and boom theyre combined&quot;
+print(r.mywords,mywords)</code></pre>
+<pre><code>## I tell R something and python something and boom theyre combined</code></pre>
+<pre class="r"><code>cat(c(mywords, py$mywords))</code></pre>
+<pre><code>## I tell R something and python something and boom theyre combined</code></pre>
+<p>AND most of all this semester, I learned stackoverflow is my best friend (:</p>
+<div class="figure">
+<img src="../../../../../post/2020-12-11-python_files/finalprojcompbio.png" />
+
+</div>
 
             
         <hr>         <div class="related-posts">

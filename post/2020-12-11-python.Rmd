@@ -8,8 +8,32 @@ tags: []
 description: ''
 ---
  
-la la la
+This semester I learned how to use python! One important difference between R studio and python I learned is that indexing in python begins at 0 instead of 1, so it is important to adjust accordingly. For example, if we wanted to find the 4th object in the dataset, we would code like this:  
 
-[Link to project 1](/project/project1/)
+```{python}
+list1=[1,2,3,4]
+list1[3]
+```
 
-[Link to google](https://www.google.com)
+In addition to learning how python varies from R, I learned how R and Python talk to each other and share information. Check it out! 
+
+```{r}
+library(reticulate)
+mywords <- "I tell R something"
+```
+
+```{python}
+mywords = "and python something and boom theyre combined"
+print(r.mywords,mywords)
+```
+
+```{r}
+cat(c(mywords, py$mywords))
+```
+
+AND most of all this semester, I learned stackoverflow is my best friend (:
+
+![](/post/2020-12-11-python_files/finalprojcompbio.png)
+
+
+

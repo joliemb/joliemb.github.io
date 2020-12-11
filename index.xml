@@ -13,9 +13,8 @@
       <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>/post/2020/12/11/python/</guid>
-      <description>la la la
-Link to project 1
-Link to google</description>
+      <description>This semester I learned how to use python! One important difference between R studio and python I learned is that indexing in python begins at 0 instead of 1, so it is important to adjust accordingly. For example, if we wanted to find the 4th object in the dataset, we would code like this:
+list1=[1,2,3,4] list1[3] ## 4 In addition to learning how python varies from R, I learned how R and Python talk to each other and share information.</description>
     </item>
     
     <item>
